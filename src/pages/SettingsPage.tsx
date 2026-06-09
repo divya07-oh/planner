@@ -47,7 +47,7 @@ export const SettingsPage: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col gap-6 p-8 h-full max-w-[800px] mx-auto w-full overflow-y-auto select-none">
+    <div className="flex flex-col gap-6 p-8 flex-1 h-full min-h-0 max-w-[800px] mx-auto w-full overflow-y-auto select-none">
       
       {/* Header Row */}
       <div>

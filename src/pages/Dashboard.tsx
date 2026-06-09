@@ -73,7 +73,7 @@ export const Dashboard: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col gap-8 p-8 overflow-y-auto max-w-[1600px] mx-auto w-full">
+    <div className="flex flex-col gap-8 p-8 overflow-y-auto max-w-[1600px] mx-auto w-full flex-1 h-full min-h-0">
       {/* Welcome Banner */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-7 rounded-2xl bg-gradient-to-r from-primary to-secondary text-white shadow-md">
         <div>

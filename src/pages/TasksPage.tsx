@@ -122,7 +122,7 @@ export const TasksPage: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col gap-6 p-8 h-full max-w-[1600px] mx-auto w-full overflow-hidden select-none">
+    <div className="flex flex-col gap-6 p-8 h-full flex-1 min-h-0 max-w-[1600px] mx-auto w-full overflow-hidden select-none">
       {/* Top Header Row */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
@@ -199,7 +199,7 @@ export const TasksPage: React.FC = () => {
       </div>
 
       {/* Board Columns Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 flex-1 overflow-hidden h-full pb-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 flex-1 overflow-y-auto md:overflow-hidden h-full pb-4 min-h-0">
         {columns.map((col) => {
           const colTasks = processedTasks.filter(t => t.status === col.status);
           return (
@@ -207,7 +207,7 @@ export const TasksPage: React.FC = () => {
               key={col.status}
               onDragOver={handleDragOver}
               onDrop={(e) => handleDrop(e, col.status)}
-              className={`flex flex-col h-full rounded-2xl p-4 border border-slate-200/50 ${col.bgClass}`}
+              className={`flex flex-col h-full max-h-[calc(100vh-250px)] rounded-2xl p-4 border border-slate-200/50 ${col.bgClass}`}
             >
               {/* Column Title Header */}
               <div className="flex items-center justify-between mb-4 pb-2 border-b border-slate-200/50">

@@ -115,7 +115,7 @@ export const CalendarPage: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row gap-6 p-8 h-full max-w-[1600px] mx-auto w-full overflow-hidden select-none">
+    <div className="flex flex-col lg:flex-row gap-6 p-8 flex-1 h-full min-h-0 max-w-[1600px] mx-auto w-full overflow-hidden select-none">
       {/* Calendar Grid Container */}
       <div className="glass-panel card-lift flex-1 rounded-2xl p-5 flex flex-col justify-between h-[650px] lg:h-auto overflow-y-auto bg-white">
         <div className="flex items-center justify-between pb-4 border-b border-slate-100">

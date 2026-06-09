@@ -179,7 +179,7 @@ export const NotesPage: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row gap-6 p-8 h-[calc(100vh-80px)] max-w-[1600px] mx-auto w-full overflow-hidden select-none">
+    <div className="flex flex-col md:flex-row gap-6 p-8 flex-1 h-full min-h-0 max-w-[1600px] mx-auto w-full overflow-hidden select-none">
       
       {/* Left Panel: Note List & Search Sidebar */}
       <div className="w-full md:w-80 glass-panel rounded-2xl p-4 flex flex-col h-[280px] md:h-full overflow-hidden shadow-sm bg-white">

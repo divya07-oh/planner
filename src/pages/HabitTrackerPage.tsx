@@ -127,7 +127,7 @@ export const HabitTrackerPage: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col gap-6 p-8 h-full max-w-[1600px] mx-auto w-full overflow-y-auto select-none">
+    <div className="flex flex-col gap-6 p-8 flex-1 h-full min-h-0 max-w-[1600px] mx-auto w-full overflow-y-auto select-none">
       
       {/* Top Header Row */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">

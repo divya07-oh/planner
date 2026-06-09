@@ -72,7 +72,7 @@ const AppContent: React.FC = () => {
         <Navbar setIsMobileOpen={setIsMobileOpen} />
         
         {/* Active Page scroll viewport */}
-        <main className="flex-1 overflow-hidden relative">
+        <main className="flex-1 overflow-hidden relative flex flex-col min-h-0">
           {renderActivePage()}
         </main>
       </div>

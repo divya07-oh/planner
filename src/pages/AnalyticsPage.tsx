@@ -69,7 +69,7 @@ export const AnalyticsPage: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col gap-6 p-6 h-full max-w-[1600px] mx-auto w-full overflow-y-auto select-none">
+    <div className="flex flex-col gap-6 p-6 flex-1 h-full min-h-0 max-w-[1600px] mx-auto w-full overflow-y-auto select-none">
       {/* Top Header Row */}
       <div>
         <h2 className="text-2xl font-extrabold text-slate-900 leading-tight">

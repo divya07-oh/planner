@@ -163,7 +163,7 @@ export const FocusTimerPage: React.FC = () => {
   const longestSession = sessions.length ? Math.max(...sessions.map(s => s.duration)) : 0;
 
   return (
-    <div className="flex flex-col lg:flex-row gap-6 p-6 h-full max-w-[1600px] mx-auto w-full overflow-y-auto select-none">
+    <div className="flex flex-col lg:flex-row gap-6 p-6 flex-1 h-full min-h-0 max-w-[1600px] mx-auto w-full overflow-y-auto select-none">
       
       {/* Timer Container Left */}
       <div className="glass-panel flex-1 rounded-2xl p-6 flex flex-col items-center justify-between min-h-[480px]">
