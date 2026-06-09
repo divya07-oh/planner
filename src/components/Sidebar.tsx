@@ -110,12 +110,12 @@ export const Sidebar: React.FC<SidebarProps> = ({
       <div className="p-4 border-t border-slate-100 bg-slate-50/50">
         <div className="flex items-center gap-3">
           <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-primary to-secondary text-white font-bold text-sm flex items-center justify-center ring-2 ring-slate-100">
-            JD
+            D
           </div>
           {!isCollapsed && (
             <div className="flex-1 min-w-0">
-              <p className="text-xs font-extrabold text-slate-800 truncate">John Doe</p>
-              <p className="text-[10px] font-bold text-slate-400 truncate">Productive Mode</p>
+              <p className="text-xs font-extrabold text-slate-800 truncate">Divya</p>
+              <p className="text-[10px] font-bold text-slate-400 truncate">divya@example.com</p>
             </div>
           )}
         </div>

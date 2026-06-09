@@ -77,7 +77,7 @@ export const Dashboard: React.FC = () => {
       {/* Welcome Banner */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-7 rounded-2xl bg-gradient-to-r from-primary to-secondary text-white shadow-md">
         <div>
-          <h2 className="text-3xl font-extrabold tracking-tight">Welcome back, John!</h2>
+          <h2 className="text-3xl font-extrabold tracking-tight">Welcome back, Divya!</h2>
           <p className="text-sm text-slate-100 opacity-90 mt-1.5 font-medium">
             You are on a roll. Let's make today highly productive!
           </p>
